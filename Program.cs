@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace klavyeden_girilen_2_sayıyı_toplayan_uygulama
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int sayi1, sayi2, Toplam;
+            Console.WriteLine("Lütfen Bir Sayı Giriniz");
+            sayi1=Convert.ToInt32(Console.ReadLine());
+            Console.ReadLine();
+
+            Console.WriteLine("Lütfen  Bir Sayı Daha Giriniz");
+            sayi2 = Convert.ToInt32((Console.ReadLine()));
+            Console.ReadLine();
+            Toplam = sayi1 + sayi2;
+            {
+                Console.WriteLine("Sonuç:"+toplam);
+            }
+            Console.ReadKey();
+
+        }
+    }
+}
